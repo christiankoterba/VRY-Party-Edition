@@ -2,9 +2,9 @@ import requests
 from colr import color
 
 version = "2.94"
-enablePrivateLogging = True
-hide_names = True
-hide_levels = True
+enablePrivateLogging = False
+hide_names = False
+hide_levels = False
 
 gamemodes = {
     "newmap": "New Map",
@@ -195,6 +195,7 @@ DEFAULT_CONFIG = {
     "weapon": "Vandal",
     "chat_limit": 5,
     "table": {
+        "party": True,
         "skin": True,
         "rr": True,
         "earned_rr": True,
@@ -203,7 +204,7 @@ DEFAULT_CONFIG = {
         "leaderboard": True,
         "headshot_percent": True,
         "winrate": True,
-        "kd": False,
+        "kd": True,
         "level": True
     },
     "flags": {
