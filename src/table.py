@@ -52,7 +52,6 @@ class Table:
             True,  # Name
             bool(config.table.get("skin", True)),  # Skin
             True,  # Rank
-            bool(config.table.get("party", True)), # Party'.
             bool(config.table.get("rr", True)),  # RR
             bool(config.table.get("peakrank", True)),  # Peak Rank
             bool(config.table.get("previousrank", False)),  # Previous Rank
